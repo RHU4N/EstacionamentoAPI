@@ -26,5 +26,5 @@ const Veiculo = db.sequelize.define(
   },
   { freezeTableName: true }
 );
-Veiculo.sync({ force: true });
+// Veiculo.sync({ force: true });
 module.exports = Veiculo;
